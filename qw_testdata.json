@@ -1,0 +1,1249 @@
+[{
+       "id": "cinemadb-io-45095",
+        "uuid": "1492f6fd-a6f9-4550-bec5-1d9c629b775f",
+        "name": "Happy Cinemas Happy Duck",
+        "facility_type": "Multiplex",
+        "facility_type_data": {
+            "name": "Multiplex",
+            "uuid": "22f5040f-31af-48dc-8df4-f2c8be641188"
+        },
+        "facility_location_type": "Standalone",
+        "latitude": "37.7416696",
+        "longitude": "-122.43328810000003",
+        "ticketing_system": "Manual",
+        "ticketing_system_data": {
+            "name": "Manual",
+            "uuid": "50962c63-686e-4fe3-ae44-39729d9398ef"
+        },
+        "distribution_zone": "",
+        "distribution_zones": [],
+        "distribution_zones_data": [],
+        "opened_on": null,
+        "timezone": "America/Los_Angeles",
+        "is_listed": true,
+        "is_deleted": null,
+        "is_private": false,
+        "client_tag": null,
+        "is_verified": true,
+        "identifiers": [
+            "cinemadb.io:45095",
+            "cinemadb-io-45095",
+            "1492f6fd-a6f9-4550-bec5-1d9c629b775f"
+        ],
+        "thirdparty_domain_identifiers": [{
+            "domain": "cinemadb.io",
+            "id": "45095"
+        }],
+        "integrators": [],
+        "kdm_delivery_methods": [],
+        "dcp_delivery_methods": [],
+        "enable_kdm_emails": true,
+        "enable_email_attachments": true,
+        "enable_dcp_delivery_emails": true,
+        "delivery_instructions": {
+            "notes": null,
+            "times": null
+        },
+        "link_urls": [],
+        "websites": [],
+        "emails": [],
+        "alternate_names": [
+            "Happy Sparrows"
+        ],
+        "phone_booking_numbers": [],
+        "contacts": [],
+        "parking_capacity": {},
+        "address": {
+            "street": "93-95 Mile End Road",
+            "area": null,
+            "display_location": null,
+            "metro_area": {},
+            "city": {
+                "uuid": "402caf95-e59d-488d-9685-aca4985ca4b5",
+                "code": "US-CA-LANES",
+                "name": "Los Angeles",
+                "alternate_name": null,
+                "local_language_name": null,
+                "translations": [],
+                "timezone": {
+                    "id": "America/Los_Angeles",
+                    "display_name": "Pacific Standard Time",
+                    "utc_offset": "-08:00"
+                }
+            },
+            "province": {
+                "uuid": "6684f3d9-6998-476d-b1b1-016be84c0cfb",
+                "code": "US-CA",
+                "name": "California",
+                "alternate_name": null,
+                "local_language_name": null,
+                "translations": [
+                    "CA"
+                ],
+                "iso_code": "US-CA"
+            },
+            "country": {
+                "uuid": "e86b6b0d-b615-4a58-8802-71cf0c61cb4c",
+                "code": "US",
+                "name": "United States",
+                "alternate_name": null,
+                "local_language_name": null,
+                "translations": [],
+                "iso3166_2": "US",
+                "iso3166_3": "USA",
+                "currency": {
+                    "alphabetic_code": "USD",
+                    "name": "US Dollar",
+                    "symbol": null
+                }
+            },
+            "postal_code": "E1 4UJ"
+        },
+        "shipping_address": null,
+        "chain": {
+            "name": "Happy Cinemas",
+            "display_name": "Happy Cinemas",
+            "uuid": "2c6da734-a30c-42e5-935a-f092635b6fe2",
+            "city": {
+                "uuid": "402caf95-e59d-488d-9685-aca4985ca4b5",
+                "code": "US-CA-LANES",
+                "name": "Los Angeles"
+            },
+            "province": {
+                "uuid": "6684f3d9-6998-476d-b1b1-016be84c0cfb",
+                "code": "US-CA",
+                "name": "California"
+            },
+            "country": {
+                "uuid": "e86b6b0d-b615-4a58-8802-71cf0c61cb4c",
+                "code": "US",
+                "name": "United States"
+            },
+            "address": "898 North Sepulveda Boulevard, Suite 320",
+            "area": "test",
+            "postal_code": "90245",
+            "emails": [
+                "support@happycinemas.com"
+            ],
+            "phone_numbers": [{
+                "calling_code": "1",
+                "number": "6462844682"
+            }],
+            "owners": []
+        },
+        "managed_by_companies": [{
+                "id": "054e3c69-9ca5-4ac1-9402-d0f3d9ab0587",
+                "code": "KKPRTMY101",
+                "name": "qwcPartners",
+                "role": {
+                    "code": "PTR",
+                    "name": "TDL Partner"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "2533e98d-fe8e-4dc0-975c-409060e78a2f",
+                "code": "SNMTBIN101",
+                "name": "QWC-Admin Test Internal",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "2c4b8e31-e2c9-4390-8535-99eb2900cc26",
+                "code": "KKTTLIN102",
+                "name": "qwc4TDLPartners",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "b777e812-66d7-44e1-abdc-6fd913d36de4",
+                "code": null,
+                "name": "The Cinema Company",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "f31b8908-a3c9-449f-b3d1-0aeaf8c62fd1",
+                "code": "SNMSXIN101",
+                "name": "Cinemas",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "ab6b7fa0-0ba4-467b-845b-c75e43d24f74",
+                "code": "KKKSHSG101",
+                "name": "Qube",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "59cf5fac-d703-4edc-8c32-eb5679aebd4c",
+                "code": "EKSHBIN103",
+                "name": "Exhibitor Test Jupiter",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "d6690d7c-6c7c-4ae0-a669-d30c6c76f142",
+                "code": "KKKSHIN101",
+                "name": "qwc-exhibtor",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "4c49ee3d-594d-44bd-b228-d5e5ee99080b",
+                "code": "ISMRKIN100",
+                "name": "ismaary77+61@gmail.com CDB UserCompany",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "6c4aeebf-4bf4-4177-a25d-f875ff2f9575",
+                "code": "KKPRTIN101",
+                "name": "QWCPartner",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "bed8e345-5554-4bf7-af62-87f5eab2573c",
+                "code": null,
+                "name": "CinemaDB",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "b777e812-66d7-44e1-abdc-6fd913d36de4",
+                "code": null,
+                "name": "The Cinema Company",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "2694d971-bd89-4566-aac6-4bfbcbf06365",
+                "code": null,
+                "name": "Powerful Pixels",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "b3c9c5b5-0653-45a5-b4c3-f26973fb2ee7",
+                "code": "KSNTJIN101",
+                "name": "qwcInt",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "c47a808b-aa71-4817-8c98-af15fced047c",
+                "code": "UTPRTLK101",
+                "name": "UATPartner",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "27def81e-f089-4e01-bf70-4d00f6879865",
+                "code": "ABPZPIN101",
+                "name": "ab",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "0abda33e-a19e-4bc8-a522-77dd0fc4faee",
+                "code": "KTSTRIN103",
+                "name": "QWDistributorComp",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "bb8100bd-9730-4973-b78a-36a23e9f8584",
+                "code": "FRXTSIN115",
+                "name": "FreshDesk Integrator 001",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "a3b17807-d07f-4979-b53c-4fa6be7ce3f5",
+                "code": "PRFNKIN102",
+                "name": "PraveenK Kumar",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "efd2890e-ee05-4b63-bab2-f0ddaabc5b87",
+                "code": "HRNTKIN103",
+                "name": "Hari  Integrator 14",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "e37bd20a-bb34-4b3b-9771-7d06cc486373",
+                "code": "TSTQFGB101",
+                "name": "123",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "6f0186a6-1a0f-4ab2-8a45-95b26aad10d0",
+                "code": null,
+                "name": "Qube Cinema",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            }
+        ],
+        "theatre_management_system": {},
+        "standby_devices": [{
+                "id": "650502fe-5c3f-4251-a677-3cc662beae42",
+                "uuid": "650502fe-5c3f-4251-a677-3cc662beae42",
+                "code": "PLY",
+                "type": "PLAYBACK SERVER",
+                "manufacturer": "Qube Cinema",
+                "model_number": "XP-I with Xi IMB",
+                "specification": "DCI",
+                "serial_number": "QXI-03061-02-20",
+                "is_active": true,
+                "is_retired": false,
+                "conflict": false,
+                "is_flm_device": true,
+                "has_certificate": true,
+                "public_key_thumbprint": "cX6Ee8DhKbW4A80m1TR88K84NtY=",
+                "thumbprint": "t15dh1hGrSvXJeMGOqCORCCyhXE=",
+                "certificate": {
+                    "thumbprint": "t15dh1hGrSvXJeMGOqCORCCyhXE=",
+                    "public_key_thumbprint": "cX6Ee8DhKbW4A80m1TR88K84NtY=",
+                    "subject_name": "dnQualifier=cX6Ee8DhKbW4A80m1TR88K84NtY=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03061-02-20.",
+                    "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                    "valid_from": "2020-02-23 18:30:00 UTC",
+                    "valid_till": "2036-12-31 18:29:59 UTC",
+                    "certificate_type": "SHA256",
+                    "chain": [
+                        "MIIEdTCCA12gAwIBAgICHEowDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMjIzMTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcY1g2RWU4RGhLYlc0QTgwbTFUUjg4Szg0TnRZPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzA2MS0wMi0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA8SiaFoj2YvSS24v0Xs1GS+a948fy/rmg4ICUNKLI6iZv/+m07xGJIK0x/6Xrj7uYtI/dRs+inyam7nXfBLk8B7Y5KRyNp/mCMqQTYGf1Add4RAnStTNjMHRf6NO5/D8Psc6MkztvCGiM6ERrpZY33gUqBDUmeIVoWotbE0JYIp0v5LgsON8jMVuII8z1IyREfyH8wXVQyhVPJnBgE8pLorlwuyGMCF4W8O2CdgPkNUsOFNa/cZzb53NxFIGC/K0gkafMRsupM1qDZT2hHdPGDEmJVOHUqDX6pe/StxCdlUDOZXF70dRhLz2nh/wDk4eL3N9VhkumF8Bz15ddaV4lAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFHF+hHvA4Sm1uAPNJtU0fPCvODbWMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBAC+O2KBxrTjnDC4z44jl4W47V/0d8N8ggy28hkANbdjOWk3rsC/QHvMVVVH+JIleI0dlaJFmYbWmLEz9M4uuLDf4BkSt7nQQoeEQsIlydvLKFaT4Vixx5ejgWpLePuqh16qAQBmhVlslRnZjckNLUnJ44LLFyVkjcolcnszo81HUWEaYfpIq+etSPbb0ZFm9ptazqXuuRhCXoT5IJ5FFJT8/7PDE9VOj9oS50A1zsAHYNP2LDqEXVoOMcPJKWVAlWOCyqbGhDllmSViDdlr28D3lo/rWRg9ej6CYa2DUDwurMepwbzLclENYYnxakEm8phxuqvqdTWBSXvafVjlpsrw=",
+                        "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                        "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                    ]
+                },
+                "device_ip": null,
+                "subnet_mask": null,
+                "gateway": null,
+                "software_version": null
+            },
+            {
+                "id": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                "uuid": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                "code": "PLY",
+                "type": "PLAYBACK SERVER",
+                "manufacturer": "Qube Cinema",
+                "model_number": "XP-I with Xi IMB",
+                "specification": "DCI",
+                "serial_number": "QXI-00502-21-14",
+                "is_active": true,
+                "is_retired": false,
+                "conflict": true,
+                "is_flm_device": false,
+                "has_certificate": true,
+                "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                "certificate": {
+                    "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                    "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                    "subject_name": "dnQualifier=bF43aJXC9Uq+dwUUcQodn/f1iU8=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-00502-21-14.",
+                    "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                    "valid_from": "2020-03-06 18:30:00 UTC",
+                    "valid_till": "2036-12-31 18:29:59 UTC",
+                    "certificate_type": "SHA256",
+                    "chain": [
+                        "MIIEdTCCA12gAwIBAgICHOQwDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA2MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcYkY0M2FKWEM5VXErZHdVVWNRb2RuL2YxaVU4PTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMDUwMi0yMS0xNC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHmYVuhEQYzYahIXc4w6+k7PNB5Cmyqh+uhgPEeSdj6HJfk/Gi7YAQj8C2vJv36JGgpfQgwyOzmdF4QgPYc7WM927qSwy1OgkRYhq1sA7h7ZSRoEO1R4TwkXS4YXwAF/JvpYNa7WLwIrWSDotXWaeXoHJL8aGvRFtMomISqtZQ/vXk5QRZpAteRaJzmBja64NPFZFlZ1ZAL/tgoe6XjPkz8nKP39sL0EMSoMbpFpFGCtsPyFGyC6uL9zbMJdbIEZcG0qgHtpA1TLI0iBMz5/etKWkrFcbROPxSQsqH2cVbeNDEiP3CepJHUOntYDVwYtp1OBKpfxaB6DxUGtj2oAbhAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFGxeN2iVwvVKvncFFHEKHZ/39YlPMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBAHOUuFaN4xinU2I9ieNXsDiqWDFfBDYL6xjbOIwJ3wlL+4+BhaUvx6mQnbfvEsiZC7AsJxozPdIuLE0u3YmAdgZAxVBJ0uGcneEG2mO09Hhy5MARqeLUXHSUrTBI0Yz9X0xTYfyg8BF8KFsIiK9qJ9RXxj8bR8TeV5K2XXFzJB2tSyJ6C56IUqp3Kq3rKeHO2sg8ebB0CuBmm+lsuyJdbSVLKk2ZH+W/eEAWYrywFQ1HDAj5Lj/XRyWRaEWdIV4Fz8WcY6c8NYWRzASUSOqsPizwpThniuHXfOFjAV7edzTDOud2uKWLGH8L5eNaDKfzEau1w4SvZ1BQVXVanCx9iR0=",
+                        "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                        "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                    ]
+                },
+                "device_ip": null,
+                "subnet_mask": null,
+                "gateway": null,
+                "software_version": null
+            }
+        ],
+        "measurement": "metric",
+        "auditoriums": [{
+            "id": "cinemadb-io-45095-number-1",
+            "uuid": "a8024fdd-6f75-455f-bd14-ac398925e33f",
+            "number": 1,
+            "name": "Screen 1",
+            "thirdparty_identifiers": [],
+            "thirdparty_domain_identifiers": [],
+            "is_active": true,
+            "cooling_type_data": {},
+            "wheel_chair_accessible": null,
+            "motion_seat_capability_data": {},
+            "total_seats": null,
+            "dimensions": {
+                "width": null,
+                "height": null,
+                "length": null
+            },
+            "has_dual_projector": false,
+            "projection_type": [
+                "DCI"
+            ],
+            "projection_types_data": [{
+                "name": "DCI",
+                "uuid": "9f66a815-09ef-4c62-82ea-4aec49984a86"
+            }],
+            "digital_integrators": [
+                "Qube Cinema"
+            ],
+            "digital_integrator": "Qube Cinema",
+            "digital_integrator_data": {
+                "name": "Qube Cinema",
+                "uuid": "6b024caf-d9a9-4399-a4fb-4a2390f9fd83"
+            },
+            "screen_manufacturer_data": {},
+            "screen_type_data": {},
+            "three_d_models_data": [],
+            "sound_mixes": [],
+            "sound_mix_data": [],
+            "advertising_consolidators_data": [],
+            "cinema_processor_models_data": [],
+            "screen_masking_data": [],
+            "screen_operators": [],
+            "seating_classes": [],
+            "devices": [{
+                    "id": "641018a5-d397-4d67-b6cc-ba87899c3460",
+                    "uuid": "641018a5-d397-4d67-b6cc-ba87899c3460",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-03053-02-20",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": false,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "yxfOnRJ6QJfgGgu1e3is6hdzHgk=",
+                    "thumbprint": "Lpz7iTOn1C8rwNCnWc3ga7SEBOk=",
+                    "certificate": {
+                        "thumbprint": "Lpz7iTOn1C8rwNCnWc3ga7SEBOk=",
+                        "public_key_thumbprint": "yxfOnRJ6QJfgGgu1e3is6hdzHgk=",
+                        "subject_name": "dnQualifier=yxfOnRJ6QJfgGgu1e3is6hdzHgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03053-02-20.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-02-23 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHDowDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMjIzMTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMceXhmT25SSjZRSmZnR2d1MWUzaXM2aGR6SGdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzA1My0wMi0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDINjs4qRbIqOgo32ua1qYqXO8bW5QmF4SFrl72JDzGbPw4hhsBNZZAyfIi2zA1EJijQdNYd2BUDWp+wdH3YYMiyVT+0Ms02CDuo29JRBE2K2rmFniBLB/5xXz6PZb8vBpLIMReM/JGXTf9o2a2MgBPXetxSBWqHLKenLCmQzjKIUyqhPMYkfEeuFpe1KbvRTJfvfn1WpRXQppGRD0Hxlq62sBH6U1ZYIhajZRMwQb1CcdiFOysp48d15yiXH6/qAMm0zWkWdstEHw6hjY5q6OSR60OTqKwliLIt5DDZPvn8ajuGTs/hk4lBkiN2AqSNGoJHc9GVHi1cyWtq9eYMBqVAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFMsXzp0SekCX4BoLtXt4rOoXcx4JMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBALE6JtbFJZrkkC6FWxGJ4ZNijdHDFyyNGoaiqxpgojpLrwxA+/V73R4W8nqfvPIVHH6yXOvc0CvCorVhHHllPoks3r+7u6kmbbI4atMXvuk5TOCoc2qj4i31xY1/QAyquPKuD8qFDK1D2ICL7hqP8UNgrJ59H6cRSyuy+ZRXoPW1divcR5Mcq+ZjG+nGAM9FD3dXPEwD42Rwua+dmDIhOfQk8sPJ+L8jbKwQrp1gd+tXXeEHsyjFVqAXNcSZxib+en3bLQo8HM/hYD8SVu0tV5nT7mHtkl7FJVl7qozisbUSDvO0xlhsvb++WkURlBANIAOpT190igD8q2ymslaP7qE=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                },
+                {
+                    "id": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                    "uuid": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-00502-21-14",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": true,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                    "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                    "certificate": {
+                        "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                        "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                        "subject_name": "dnQualifier=bF43aJXC9Uq+dwUUcQodn/f1iU8=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-00502-21-14.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-03-06 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHOQwDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA2MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcYkY0M2FKWEM5VXErZHdVVWNRb2RuL2YxaVU4PTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMDUwMi0yMS0xNC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHmYVuhEQYzYahIXc4w6+k7PNB5Cmyqh+uhgPEeSdj6HJfk/Gi7YAQj8C2vJv36JGgpfQgwyOzmdF4QgPYc7WM927qSwy1OgkRYhq1sA7h7ZSRoEO1R4TwkXS4YXwAF/JvpYNa7WLwIrWSDotXWaeXoHJL8aGvRFtMomISqtZQ/vXk5QRZpAteRaJzmBja64NPFZFlZ1ZAL/tgoe6XjPkz8nKP39sL0EMSoMbpFpFGCtsPyFGyC6uL9zbMJdbIEZcG0qgHtpA1TLI0iBMz5/etKWkrFcbROPxSQsqH2cVbeNDEiP3CepJHUOntYDVwYtp1OBKpfxaB6DxUGtj2oAbhAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFGxeN2iVwvVKvncFFHEKHZ/39YlPMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBAHOUuFaN4xinU2I9ieNXsDiqWDFfBDYL6xjbOIwJ3wlL+4+BhaUvx6mQnbfvEsiZC7AsJxozPdIuLE0u3YmAdgZAxVBJ0uGcneEG2mO09Hhy5MARqeLUXHSUrTBI0Yz9X0xTYfyg8BF8KFsIiK9qJ9RXxj8bR8TeV5K2XXFzJB2tSyJ6C56IUqp3Kq3rKeHO2sg8ebB0CuBmm+lsuyJdbSVLKk2ZH+W/eEAWYrywFQ1HDAj5Lj/XRyWRaEWdIV4Fz8WcY6c8NYWRzASUSOqsPizwpThniuHXfOFjAV7edzTDOud2uKWLGH8L5eNaDKfzEau1w4SvZ1BQVXVanCx9iR0=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                },
+                {
+                    "id": "c0510963-6b7a-405e-ad59-dba94f831d5f",
+                    "uuid": "c0510963-6b7a-405e-ad59-dba94f831d5f",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-03104-03-20",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": false,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "QxO0pFk1JMkfkqbNhu+Yg04vEY8=",
+                    "thumbprint": "PywfyjmkFtc2b/w0rotMzF92kz4=",
+                    "certificate": {
+                        "thumbprint": "PywfyjmkFtc2b/w0rotMzF92kz4=",
+                        "public_key_thumbprint": "QxO0pFk1JMkfkqbNhu+Yg04vEY8=",
+                        "subject_name": "dnQualifier=QxO0pFk1JMkfkqbNhu+Yg04vEY8=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03104-03-20.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-03-04 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHKQwDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA0MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcUXhPMHBGazFKTWtma3FiTmh1K1lnMDR2RVk4PTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzEwNC0wMy0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC60FdqWfKWcqXFbHwAsaK0w9CRyMDoQpoEGoROgN7L6+/NrGONaVVlWPiAUw2CjuooJ6Wdj6pM1qqzTlUP5CfgBZ0dvNu0toIMLAjq0Ry4x1b9oGuLjzyso6uryYC05mt9L0+7gAXDQCw5Q2QDD69VsozzI73qtojaNYsB86/xBzkel2DPSnP/lBDaM+rD3FQYKzyPRczeuKE+HEfmAPnqr/dR2KxM26z0STCJikOXz5gjhRxX5nCdN3M0OqVdJzPMLn8U/V5Or2PH7aoDnVyBKEqgEIurHbYFWhePaEjMWUwrS8owzONz8uWmetMgiNx8JUDbkfPmuA1H7Gem/wE3AgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFEMTtKRZNSTJH5KmzYbvmINOLxGPMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBABzw3h1PsIIo09iACb2Fr5PqzC8fm9NjFXfwDykrtMlYYIZN9IrDMG2T6IraX+AeI3endxZ51aBU0ISphD9413zAVP6Xgd9GYRJJCcQD7ggvWawTtb9sr7h0Jp70lbNMNNwhT/ebjMwtSkD7HD3Ztsx5WwG8v4x4oZ+5TlZZX4jmZwn4qnOvN8oGgwRpcUobABP8QAuD+C6JuJhQFD9lbuQF8fo9Rs2q9qQ9UrtfGwKck2M96cgmLRFHCsYaVwfD8zg/WUOEN9hc6pE+wccbBFoX6jkafuYb81tSJIM7pIbtSsTL2cUjvUctPZuI+zKL31FjkbHjs/PgWHCKp/COrh8=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                },
+                {
+                    "id": "c9bae993-a9c7-4965-8f59-44841b3a1f0f",
+                    "uuid": "c9bae993-a9c7-4965-8f59-44841b3a1f0f",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-03101-03-20",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": false,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "qEahJ//hfdwaO1LE4b1nswH+gdo=",
+                    "thumbprint": "NFGDfkIUiPdBE8P2poOITUDDryY=",
+                    "certificate": {
+                        "thumbprint": "NFGDfkIUiPdBE8P2poOITUDDryY=",
+                        "public_key_thumbprint": "qEahJ//hfdwaO1LE4b1nswH+gdo=",
+                        "subject_name": "dnQualifier=qEahJ//hfdwaO1LE4b1nswH+gdo=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03101-03-20.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-03-04 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHJ4wDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA0MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMccUVhaEovL2hmZHdhTzFMRTRiMW5zd0grZ2RvPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzEwMS0wMy0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCx5snHxdB9JZdqF8cAZFgtVXCrbdzeQXiDzpv2NovK7uq73DWDNX6eUh3A9OlH0SmMUy32UK1cOmJ9eh2nClyJYyaRlf9PSsj9L3J0lsaY/GcYQ7+OtWuaP/TnHpsBOKvWlc6FJMF0M5MbwR/HpJbkRMMUaiDurq4q6WeMkVZ6XJ+51HCr6UbZV45+iXy5bZTuTpUuIJ5zLLqIMoIr2NBAVc9CVuE9GhBb5/22f9YMHBEyMpaT2m1mwMsNyM7aVKkvcUlZI2O//+8acfb59v7UHusLneUN6wAHZG3EOk3d9XAvl9sUZ/5HZTk0diAbVSfkFVCPCpJiuvXMg4LvIoQLAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFKhGoSf/4X3cGjtSxOG9Z7MB/oHaMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBANgeAmK8mm1NIPzwfx2KDkg9oJcBK0wpwfYCIGTLU9rbzS82Sq8YU41uwEDYN/rx9QBHtadQxNu/lJwMyPU5v+XsgpotHzGkVdHqzavGK1K7XRKuEOdPiy07NmhY1XakXu1g+GyV/1i62diij0D1+Gqt3SW14g08DxSmMjnHp5P/p+BOZcpmZwMd6woOc0yolrfluH/MRiyX+XDTMgJO6oe9pnpwzYU5kAEsioW+v8SKxVSH+xYeBrwzKfDcrQCywiFO8A/U0O19LV/dv9z4tutKukOWEqFsE1yHJWgpIJ5x4c0Xu//zKTQB64b1uqfHc3xX7ySHa2Eub2tR2AXF/gM=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                }
+            ],
+            "identifiers": [
+                "1492f6fd-a6f9-4550-bec5-1d9c629b775f-number-1",
+                "1492f6fd-a6f9-4550-bec5-1d9c629b775f-name-screen-1",
+                "a8024fdd-6f75-455f-bd14-ac398925e33f",
+                "1492f6fd-a6f9-4550-bec5-1d9c629b775f-name-screen-1-test",
+                "cinemadb-io-45095-number-1",
+                "cinemadb-io-45095-name-screen-1"
+            ]
+        }],
+        "wiretaps": [{
+            "id": "6711208f-6567-40d0-9058-ceb105e5aa90",
+            "serial": "QWA-M50173",
+            "type": "microTAP",
+            "storageSizeInGb": 128
+        }],
+        "preferred_language": "eng"
+    },
+  {
+       "id": "cinemadb-io-50000",
+        "uuid": "1492f6fd-a6f9-4550-bec5-1d9c629b775f",
+        "name": "Second Happy Cinemas Happy Duck",
+        "facility_type": "Multiplex",
+        "facility_type_data": {
+            "name": "Multiplex",
+            "uuid": "22f5040f-31af-48dc-8df4-f2c8be641188"
+        },
+        "facility_location_type": "Standalone",
+        "latitude": "37.7416696",
+        "longitude": "-122.43328810000003",
+        "ticketing_system": "Manual",
+        "ticketing_system_data": {
+            "name": "Manual",
+            "uuid": "50962c63-686e-4fe3-ae44-39729d9398ef"
+        },
+        "distribution_zone": "",
+        "distribution_zones": [],
+        "distribution_zones_data": [],
+        "opened_on": null,
+        "timezone": "America/Los_Angeles",
+        "is_listed": true,
+        "is_deleted": null,
+        "is_private": false,
+        "client_tag": null,
+        "is_verified": true,
+        "identifiers": [
+            "cinemadb.io:45095",
+            "cinemadb-io-45095",
+            "1492f6fd-a6f9-4550-bec5-1d9c629b775f"
+        ],
+        "thirdparty_domain_identifiers": [{
+            "domain": "cinemadb.io",
+            "id": "45095"
+        }],
+        "integrators": [],
+        "kdm_delivery_methods": [],
+        "dcp_delivery_methods": [],
+        "enable_kdm_emails": true,
+        "enable_email_attachments": true,
+        "enable_dcp_delivery_emails": true,
+        "delivery_instructions": {
+            "notes": null,
+            "times": null
+        },
+        "link_urls": [],
+        "websites": [],
+        "emails": [],
+        "alternate_names": [
+            "Happy Sparrows"
+        ],
+        "phone_booking_numbers": [],
+        "contacts": [],
+        "parking_capacity": {},
+        "address": {
+            "street": "93-95 Mile End Road",
+            "area": null,
+            "display_location": null,
+            "metro_area": {},
+            "city": {
+                "uuid": "402caf95-e59d-488d-9685-aca4985ca4b5",
+                "code": "US-CA-LANES",
+                "name": "Los Angeles",
+                "alternate_name": null,
+                "local_language_name": null,
+                "translations": [],
+                "timezone": {
+                    "id": "America/Los_Angeles",
+                    "display_name": "Pacific Standard Time",
+                    "utc_offset": "-08:00"
+                }
+            },
+            "province": {
+                "uuid": "6684f3d9-6998-476d-b1b1-016be84c0cfb",
+                "code": "US-CA",
+                "name": "California",
+                "alternate_name": null,
+                "local_language_name": null,
+                "translations": [
+                    "CA"
+                ],
+                "iso_code": "US-CA"
+            },
+            "country": {
+                "uuid": "e86b6b0d-b615-4a58-8802-71cf0c61cb4c",
+                "code": "US",
+                "name": "United States",
+                "alternate_name": null,
+                "local_language_name": null,
+                "translations": [],
+                "iso3166_2": "US",
+                "iso3166_3": "USA",
+                "currency": {
+                    "alphabetic_code": "USD",
+                    "name": "US Dollar",
+                    "symbol": null
+                }
+            },
+            "postal_code": "E1 4UJ"
+        },
+        "shipping_address": null,
+        "chain": {
+            "name": "Happy Cinemas",
+            "display_name": "Happy Cinemas",
+            "uuid": "2c6da734-a30c-42e5-935a-f092635b6fe2",
+            "city": {
+                "uuid": "402caf95-e59d-488d-9685-aca4985ca4b5",
+                "code": "US-CA-LANES",
+                "name": "Los Angeles"
+            },
+            "province": {
+                "uuid": "6684f3d9-6998-476d-b1b1-016be84c0cfb",
+                "code": "US-CA",
+                "name": "California"
+            },
+            "country": {
+                "uuid": "e86b6b0d-b615-4a58-8802-71cf0c61cb4c",
+                "code": "US",
+                "name": "United States"
+            },
+            "address": "898 North Sepulveda Boulevard, Suite 320",
+            "area": "test",
+            "postal_code": "90245",
+            "emails": [
+                "support@happycinemas.com"
+            ],
+            "phone_numbers": [{
+                "calling_code": "1",
+                "number": "6462844682"
+            }],
+            "owners": []
+        },
+        "managed_by_companies": [{
+                "id": "054e3c69-9ca5-4ac1-9402-d0f3d9ab0587",
+                "code": "KKPRTMY101",
+                "name": "qwcPartners",
+                "role": {
+                    "code": "PTR",
+                    "name": "TDL Partner"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "2533e98d-fe8e-4dc0-975c-409060e78a2f",
+                "code": "SNMTBIN101",
+                "name": "QWC-Admin Test Internal",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "2c4b8e31-e2c9-4390-8535-99eb2900cc26",
+                "code": "KKTTLIN102",
+                "name": "qwc4TDLPartners",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "b777e812-66d7-44e1-abdc-6fd913d36de4",
+                "code": null,
+                "name": "The Cinema Company",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Theatre"
+            },
+            {
+                "id": "f31b8908-a3c9-449f-b3d1-0aeaf8c62fd1",
+                "code": "SNMSXIN101",
+                "name": "Cinemas",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "ab6b7fa0-0ba4-467b-845b-c75e43d24f74",
+                "code": "KKKSHSG101",
+                "name": "Qube",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "59cf5fac-d703-4edc-8c32-eb5679aebd4c",
+                "code": "EKSHBIN103",
+                "name": "Exhibitor Test Jupiter",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "d6690d7c-6c7c-4ae0-a669-d30c6c76f142",
+                "code": "KKKSHIN101",
+                "name": "qwc-exhibtor",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "4c49ee3d-594d-44bd-b228-d5e5ee99080b",
+                "code": "ISMRKIN100",
+                "name": "ismaary77+61@gmail.com CDB UserCompany",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "6c4aeebf-4bf4-4177-a25d-f875ff2f9575",
+                "code": "KKPRTIN101",
+                "name": "QWCPartner",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "bed8e345-5554-4bf7-af62-87f5eab2573c",
+                "code": null,
+                "name": "CinemaDB",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "b777e812-66d7-44e1-abdc-6fd913d36de4",
+                "code": null,
+                "name": "The Cinema Company",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "2694d971-bd89-4566-aac6-4bfbcbf06365",
+                "code": null,
+                "name": "Powerful Pixels",
+                "role": {
+                    "code": "EXB",
+                    "name": "Exhibitor"
+                },
+                "resource_claim_on": "Chain"
+            },
+            {
+                "id": "b3c9c5b5-0653-45a5-b4c3-f26973fb2ee7",
+                "code": "KSNTJIN101",
+                "name": "qwcInt",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "c47a808b-aa71-4817-8c98-af15fced047c",
+                "code": "UTPRTLK101",
+                "name": "UATPartner",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "27def81e-f089-4e01-bf70-4d00f6879865",
+                "code": "ABPZPIN101",
+                "name": "ab",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "0abda33e-a19e-4bc8-a522-77dd0fc4faee",
+                "code": "KTSTRIN103",
+                "name": "QWDistributorComp",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "bb8100bd-9730-4973-b78a-36a23e9f8584",
+                "code": "FRXTSIN115",
+                "name": "FreshDesk Integrator 001",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "a3b17807-d07f-4979-b53c-4fa6be7ce3f5",
+                "code": "PRFNKIN102",
+                "name": "PraveenK Kumar",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "efd2890e-ee05-4b63-bab2-f0ddaabc5b87",
+                "code": "HRNTKIN103",
+                "name": "Hari  Integrator 14",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "e37bd20a-bb34-4b3b-9771-7d06cc486373",
+                "code": "TSTQFGB101",
+                "name": "123",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            },
+            {
+                "id": "6f0186a6-1a0f-4ab2-8a45-95b26aad10d0",
+                "code": null,
+                "name": "Qube Cinema",
+                "role": {
+                    "code": "INT",
+                    "name": "Integrators"
+                },
+                "resource_claim_on": "Digital Integrator"
+            }
+        ],
+        "theatre_management_system": {},
+        "standby_devices": [{
+                "id": "650502fe-5c3f-4251-a677-3cc662beae42",
+                "uuid": "650502fe-5c3f-4251-a677-3cc662beae42",
+                "code": "PLY",
+                "type": "PLAYBACK SERVER",
+                "manufacturer": "Qube Cinema",
+                "model_number": "XP-I with Xi IMB",
+                "specification": "DCI",
+                "serial_number": "QXI-03061-02-20",
+                "is_active": true,
+                "is_retired": false,
+                "conflict": false,
+                "is_flm_device": true,
+                "has_certificate": true,
+                "public_key_thumbprint": "cX6Ee8DhKbW4A80m1TR88K84NtY=",
+                "thumbprint": "t15dh1hGrSvXJeMGOqCORCCyhXE=",
+                "certificate": {
+                    "thumbprint": "t15dh1hGrSvXJeMGOqCORCCyhXE=",
+                    "public_key_thumbprint": "cX6Ee8DhKbW4A80m1TR88K84NtY=",
+                    "subject_name": "dnQualifier=cX6Ee8DhKbW4A80m1TR88K84NtY=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03061-02-20.",
+                    "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                    "valid_from": "2020-02-23 18:30:00 UTC",
+                    "valid_till": "2036-12-31 18:29:59 UTC",
+                    "certificate_type": "SHA256",
+                    "chain": [
+                        "MIIEdTCCA12gAwIBAgICHEowDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMjIzMTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcY1g2RWU4RGhLYlc0QTgwbTFUUjg4Szg0TnRZPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzA2MS0wMi0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA8SiaFoj2YvSS24v0Xs1GS+a948fy/rmg4ICUNKLI6iZv/+m07xGJIK0x/6Xrj7uYtI/dRs+inyam7nXfBLk8B7Y5KRyNp/mCMqQTYGf1Add4RAnStTNjMHRf6NO5/D8Psc6MkztvCGiM6ERrpZY33gUqBDUmeIVoWotbE0JYIp0v5LgsON8jMVuII8z1IyREfyH8wXVQyhVPJnBgE8pLorlwuyGMCF4W8O2CdgPkNUsOFNa/cZzb53NxFIGC/K0gkafMRsupM1qDZT2hHdPGDEmJVOHUqDX6pe/StxCdlUDOZXF70dRhLz2nh/wDk4eL3N9VhkumF8Bz15ddaV4lAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFHF+hHvA4Sm1uAPNJtU0fPCvODbWMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBAC+O2KBxrTjnDC4z44jl4W47V/0d8N8ggy28hkANbdjOWk3rsC/QHvMVVVH+JIleI0dlaJFmYbWmLEz9M4uuLDf4BkSt7nQQoeEQsIlydvLKFaT4Vixx5ejgWpLePuqh16qAQBmhVlslRnZjckNLUnJ44LLFyVkjcolcnszo81HUWEaYfpIq+etSPbb0ZFm9ptazqXuuRhCXoT5IJ5FFJT8/7PDE9VOj9oS50A1zsAHYNP2LDqEXVoOMcPJKWVAlWOCyqbGhDllmSViDdlr28D3lo/rWRg9ej6CYa2DUDwurMepwbzLclENYYnxakEm8phxuqvqdTWBSXvafVjlpsrw=",
+                        "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                        "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                    ]
+                },
+                "device_ip": null,
+                "subnet_mask": null,
+                "gateway": null,
+                "software_version": null
+            },
+            {
+                "id": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                "uuid": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                "code": "PLY",
+                "type": "PLAYBACK SERVER",
+                "manufacturer": "Qube Cinema",
+                "model_number": "XP-I with Xi IMB",
+                "specification": "DCI",
+                "serial_number": "QXI-00502-21-14",
+                "is_active": true,
+                "is_retired": false,
+                "conflict": true,
+                "is_flm_device": false,
+                "has_certificate": true,
+                "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                "certificate": {
+                    "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                    "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                    "subject_name": "dnQualifier=bF43aJXC9Uq+dwUUcQodn/f1iU8=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-00502-21-14.",
+                    "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                    "valid_from": "2020-03-06 18:30:00 UTC",
+                    "valid_till": "2036-12-31 18:29:59 UTC",
+                    "certificate_type": "SHA256",
+                    "chain": [
+                        "MIIEdTCCA12gAwIBAgICHOQwDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA2MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcYkY0M2FKWEM5VXErZHdVVWNRb2RuL2YxaVU4PTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMDUwMi0yMS0xNC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHmYVuhEQYzYahIXc4w6+k7PNB5Cmyqh+uhgPEeSdj6HJfk/Gi7YAQj8C2vJv36JGgpfQgwyOzmdF4QgPYc7WM927qSwy1OgkRYhq1sA7h7ZSRoEO1R4TwkXS4YXwAF/JvpYNa7WLwIrWSDotXWaeXoHJL8aGvRFtMomISqtZQ/vXk5QRZpAteRaJzmBja64NPFZFlZ1ZAL/tgoe6XjPkz8nKP39sL0EMSoMbpFpFGCtsPyFGyC6uL9zbMJdbIEZcG0qgHtpA1TLI0iBMz5/etKWkrFcbROPxSQsqH2cVbeNDEiP3CepJHUOntYDVwYtp1OBKpfxaB6DxUGtj2oAbhAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFGxeN2iVwvVKvncFFHEKHZ/39YlPMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBAHOUuFaN4xinU2I9ieNXsDiqWDFfBDYL6xjbOIwJ3wlL+4+BhaUvx6mQnbfvEsiZC7AsJxozPdIuLE0u3YmAdgZAxVBJ0uGcneEG2mO09Hhy5MARqeLUXHSUrTBI0Yz9X0xTYfyg8BF8KFsIiK9qJ9RXxj8bR8TeV5K2XXFzJB2tSyJ6C56IUqp3Kq3rKeHO2sg8ebB0CuBmm+lsuyJdbSVLKk2ZH+W/eEAWYrywFQ1HDAj5Lj/XRyWRaEWdIV4Fz8WcY6c8NYWRzASUSOqsPizwpThniuHXfOFjAV7edzTDOud2uKWLGH8L5eNaDKfzEau1w4SvZ1BQVXVanCx9iR0=",
+                        "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                        "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                    ]
+                },
+                "device_ip": null,
+                "subnet_mask": null,
+                "gateway": null,
+                "software_version": null
+            }
+        ],
+        "measurement": "metric",
+        "auditoriums": [{
+            "id": "cinemadb-io-45095-number-1",
+            "uuid": "a8024fdd-6f75-455f-bd14-ac398925e33f",
+            "number": 1,
+            "name": "Screen 1",
+            "thirdparty_identifiers": [],
+            "thirdparty_domain_identifiers": [],
+            "is_active": true,
+            "cooling_type_data": {},
+            "wheel_chair_accessible": null,
+            "motion_seat_capability_data": {},
+            "total_seats": null,
+            "dimensions": {
+                "width": null,
+                "height": null,
+                "length": null
+            },
+            "has_dual_projector": false,
+            "projection_type": [
+                "DCI"
+            ],
+            "projection_types_data": [{
+                "name": "DCI",
+                "uuid": "9f66a815-09ef-4c62-82ea-4aec49984a86"
+            }],
+            "digital_integrators": [
+                "Qube Cinema"
+            ],
+            "digital_integrator": "Qube Cinema",
+            "digital_integrator_data": {
+                "name": "Qube Cinema",
+                "uuid": "6b024caf-d9a9-4399-a4fb-4a2390f9fd83"
+            },
+            "screen_manufacturer_data": {},
+            "screen_type_data": {},
+            "three_d_models_data": [],
+            "sound_mixes": [],
+            "sound_mix_data": [],
+            "advertising_consolidators_data": [],
+            "cinema_processor_models_data": [],
+            "screen_masking_data": [],
+            "screen_operators": [],
+            "seating_classes": [],
+            "devices": [{
+                    "id": "641018a5-d397-4d67-b6cc-ba87899c3460",
+                    "uuid": "641018a5-d397-4d67-b6cc-ba87899c3460",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-03053-02-20",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": false,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "yxfOnRJ6QJfgGgu1e3is6hdzHgk=",
+                    "thumbprint": "Lpz7iTOn1C8rwNCnWc3ga7SEBOk=",
+                    "certificate": {
+                        "thumbprint": "Lpz7iTOn1C8rwNCnWc3ga7SEBOk=",
+                        "public_key_thumbprint": "yxfOnRJ6QJfgGgu1e3is6hdzHgk=",
+                        "subject_name": "dnQualifier=yxfOnRJ6QJfgGgu1e3is6hdzHgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03053-02-20.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-02-23 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHDowDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMjIzMTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMceXhmT25SSjZRSmZnR2d1MWUzaXM2aGR6SGdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzA1My0wMi0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDINjs4qRbIqOgo32ua1qYqXO8bW5QmF4SFrl72JDzGbPw4hhsBNZZAyfIi2zA1EJijQdNYd2BUDWp+wdH3YYMiyVT+0Ms02CDuo29JRBE2K2rmFniBLB/5xXz6PZb8vBpLIMReM/JGXTf9o2a2MgBPXetxSBWqHLKenLCmQzjKIUyqhPMYkfEeuFpe1KbvRTJfvfn1WpRXQppGRD0Hxlq62sBH6U1ZYIhajZRMwQb1CcdiFOysp48d15yiXH6/qAMm0zWkWdstEHw6hjY5q6OSR60OTqKwliLIt5DDZPvn8ajuGTs/hk4lBkiN2AqSNGoJHc9GVHi1cyWtq9eYMBqVAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFMsXzp0SekCX4BoLtXt4rOoXcx4JMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBALE6JtbFJZrkkC6FWxGJ4ZNijdHDFyyNGoaiqxpgojpLrwxA+/V73R4W8nqfvPIVHH6yXOvc0CvCorVhHHllPoks3r+7u6kmbbI4atMXvuk5TOCoc2qj4i31xY1/QAyquPKuD8qFDK1D2ICL7hqP8UNgrJ59H6cRSyuy+ZRXoPW1divcR5Mcq+ZjG+nGAM9FD3dXPEwD42Rwua+dmDIhOfQk8sPJ+L8jbKwQrp1gd+tXXeEHsyjFVqAXNcSZxib+en3bLQo8HM/hYD8SVu0tV5nT7mHtkl7FJVl7qozisbUSDvO0xlhsvb++WkURlBANIAOpT190igD8q2ymslaP7qE=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                },
+                {
+                    "id": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                    "uuid": "82950895-6af9-4fb7-a74f-b41d9c9d3905",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-00502-21-14",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": true,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                    "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                    "certificate": {
+                        "thumbprint": "WNIh2t0sd9V2JmYZwLw/Iqqebo8=",
+                        "public_key_thumbprint": "bF43aJXC9Uq+dwUUcQodn/f1iU8=",
+                        "subject_name": "dnQualifier=bF43aJXC9Uq+dwUUcQodn/f1iU8=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-00502-21-14.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-03-06 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHOQwDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA2MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcYkY0M2FKWEM5VXErZHdVVWNRb2RuL2YxaVU4PTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMDUwMi0yMS0xNC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHmYVuhEQYzYahIXc4w6+k7PNB5Cmyqh+uhgPEeSdj6HJfk/Gi7YAQj8C2vJv36JGgpfQgwyOzmdF4QgPYc7WM927qSwy1OgkRYhq1sA7h7ZSRoEO1R4TwkXS4YXwAF/JvpYNa7WLwIrWSDotXWaeXoHJL8aGvRFtMomISqtZQ/vXk5QRZpAteRaJzmBja64NPFZFlZ1ZAL/tgoe6XjPkz8nKP39sL0EMSoMbpFpFGCtsPyFGyC6uL9zbMJdbIEZcG0qgHtpA1TLI0iBMz5/etKWkrFcbROPxSQsqH2cVbeNDEiP3CepJHUOntYDVwYtp1OBKpfxaB6DxUGtj2oAbhAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFGxeN2iVwvVKvncFFHEKHZ/39YlPMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBAHOUuFaN4xinU2I9ieNXsDiqWDFfBDYL6xjbOIwJ3wlL+4+BhaUvx6mQnbfvEsiZC7AsJxozPdIuLE0u3YmAdgZAxVBJ0uGcneEG2mO09Hhy5MARqeLUXHSUrTBI0Yz9X0xTYfyg8BF8KFsIiK9qJ9RXxj8bR8TeV5K2XXFzJB2tSyJ6C56IUqp3Kq3rKeHO2sg8ebB0CuBmm+lsuyJdbSVLKk2ZH+W/eEAWYrywFQ1HDAj5Lj/XRyWRaEWdIV4Fz8WcY6c8NYWRzASUSOqsPizwpThniuHXfOFjAV7edzTDOud2uKWLGH8L5eNaDKfzEau1w4SvZ1BQVXVanCx9iR0=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                },
+                {
+                    "id": "c0510963-6b7a-405e-ad59-dba94f831d5f",
+                    "uuid": "c0510963-6b7a-405e-ad59-dba94f831d5f",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-03104-03-20",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": false,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "QxO0pFk1JMkfkqbNhu+Yg04vEY8=",
+                    "thumbprint": "PywfyjmkFtc2b/w0rotMzF92kz4=",
+                    "certificate": {
+                        "thumbprint": "PywfyjmkFtc2b/w0rotMzF92kz4=",
+                        "public_key_thumbprint": "QxO0pFk1JMkfkqbNhu+Yg04vEY8=",
+                        "subject_name": "dnQualifier=QxO0pFk1JMkfkqbNhu+Yg04vEY8=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03104-03-20.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-03-04 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHKQwDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA0MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMcUXhPMHBGazFKTWtma3FiTmh1K1lnMDR2RVk4PTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzEwNC0wMy0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC60FdqWfKWcqXFbHwAsaK0w9CRyMDoQpoEGoROgN7L6+/NrGONaVVlWPiAUw2CjuooJ6Wdj6pM1qqzTlUP5CfgBZ0dvNu0toIMLAjq0Ry4x1b9oGuLjzyso6uryYC05mt9L0+7gAXDQCw5Q2QDD69VsozzI73qtojaNYsB86/xBzkel2DPSnP/lBDaM+rD3FQYKzyPRczeuKE+HEfmAPnqr/dR2KxM26z0STCJikOXz5gjhRxX5nCdN3M0OqVdJzPMLn8U/V5Or2PH7aoDnVyBKEqgEIurHbYFWhePaEjMWUwrS8owzONz8uWmetMgiNx8JUDbkfPmuA1H7Gem/wE3AgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFEMTtKRZNSTJH5KmzYbvmINOLxGPMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBABzw3h1PsIIo09iACb2Fr5PqzC8fm9NjFXfwDykrtMlYYIZN9IrDMG2T6IraX+AeI3endxZ51aBU0ISphD9413zAVP6Xgd9GYRJJCcQD7ggvWawTtb9sr7h0Jp70lbNMNNwhT/ebjMwtSkD7HD3Ztsx5WwG8v4x4oZ+5TlZZX4jmZwn4qnOvN8oGgwRpcUobABP8QAuD+C6JuJhQFD9lbuQF8fo9Rs2q9qQ9UrtfGwKck2M96cgmLRFHCsYaVwfD8zg/WUOEN9hc6pE+wccbBFoX6jkafuYb81tSJIM7pIbtSsTL2cUjvUctPZuI+zKL31FjkbHjs/PgWHCKp/COrh8=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                },
+                {
+                    "id": "c9bae993-a9c7-4965-8f59-44841b3a1f0f",
+                    "uuid": "c9bae993-a9c7-4965-8f59-44841b3a1f0f",
+                    "code": "PLY",
+                    "type": "PLAYBACK SERVER",
+                    "manufacturer": "Qube Cinema",
+                    "model_number": "XP-I with Xi IMB",
+                    "specification": "DCI",
+                    "serial_number": "QXI-03101-03-20",
+                    "is_active": true,
+                    "is_retired": false,
+                    "conflict": false,
+                    "has_certificate": true,
+                    "public_key_thumbprint": "qEahJ//hfdwaO1LE4b1nswH+gdo=",
+                    "thumbprint": "NFGDfkIUiPdBE8P2poOITUDDryY=",
+                    "certificate": {
+                        "thumbprint": "NFGDfkIUiPdBE8P2poOITUDDryY=",
+                        "public_key_thumbprint": "qEahJ//hfdwaO1LE4b1nswH+gdo=",
+                        "subject_name": "dnQualifier=qEahJ//hfdwaO1LE4b1nswH+gdo=, O=DC.CA.QubeCinema.com, OU=Qube, CN=FMI SPB MDA MDI SM MDS FMA.QXI-03101-03-20.",
+                        "issuer_name": "dnQualifier=l75GUA9Dpin0LcBeJzNzJyHtvgk=, O=DC.CA.QubeCinema.com, OU=Qube, CN=.Xi.DC.CA.QubeCinema.com.",
+                        "valid_from": "2020-03-04 18:30:00 UTC",
+                        "valid_till": "2036-12-31 18:29:59 UTC",
+                        "certificate_type": "SHA256",
+                        "chain": [
+                            "MIIEdTCCA12gAwIBAgICHJ4wDQYJKoZIhvcNAQELBQAweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wHhcNMjAwMzA0MTgzMDAwWhcNMzYxMjMxMTgyOTU5WjCBizElMCMGA1UELhMccUVhaEovL2hmZHdhTzFMRTRiMW5zd0grZ2RvPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxNDAyBgNVBAMTK0ZNSSBTUEIgTURBIE1ESSBTTSBNRFMgRk1BLlFYSS0wMzEwMS0wMy0yMC4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCx5snHxdB9JZdqF8cAZFgtVXCrbdzeQXiDzpv2NovK7uq73DWDNX6eUh3A9OlH0SmMUy32UK1cOmJ9eh2nClyJYyaRlf9PSsj9L3J0lsaY/GcYQ7+OtWuaP/TnHpsBOKvWlc6FJMF0M5MbwR/HpJbkRMMUaiDurq4q6WeMkVZ6XJ+51HCr6UbZV45+iXy5bZTuTpUuIJ5zLLqIMoIr2NBAVc9CVuE9GhBb5/22f9YMHBEyMpaT2m1mwMsNyM7aVKkvcUlZI2O//+8acfb59v7UHusLneUN6wAHZG3EOk3d9XAvl9sUZ/5HZTk0diAbVSfkFVCPCpJiuvXMg4LvIoQLAgMBAAGjgfMwgfAwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBDAwHQYDVR0OBBYEFKhGoSf/4X3cGjtSxOG9Z7MB/oHaMIGzBgNVHSMEgaswgaiAFJe+RlAPQ6Yp9C3AXiczcych7b4JoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQ4wDQYJKoZIhvcNAQELBQADggEBANgeAmK8mm1NIPzwfx2KDkg9oJcBK0wpwfYCIGTLU9rbzS82Sq8YU41uwEDYN/rx9QBHtadQxNu/lJwMyPU5v+XsgpotHzGkVdHqzavGK1K7XRKuEOdPiy07NmhY1XakXu1g+GyV/1i62diij0D1+Gqt3SW14g08DxSmMjnHp5P/p+BOZcpmZwMd6woOc0yolrfluH/MRiyX+XDTMgJO6oe9pnpwzYU5kAEsioW+v8SKxVSH+xYeBrwzKfDcrQCywiFO8A/U0O19LV/dv9z4tutKukOWEqFsE1yHJWgpIJ5x4c0Xu//zKTQB64b1uqfHc3xX7ySHa2Eub2tR2AXF/gM=",
+                            "MIIEdTCCA12gAwIBAgIBDjANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTEyMTAwMzE4MzAwMFoXDTM3MTIzMTE4Mjk1OVoweTElMCMGA1UELhMcbDc1R1VBOURwaW4wTGNCZUp6TnpKeUh0dmdrPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xDTALBgNVBAsTBFF1YmUxIjAgBgNVBAMTGS5YaS5EQy5DQS5RdWJlQ2luZW1hLmNvbS4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDl4S24wkZb121hnxC3T1Ls08bfQoeTc1ov3YpBwfDjTemfyQouJ35kpsTQ4pSKkMYpxFg7XPIIBLRNRTPCahuAllMtn75Ylkon+540Cwor5HKeDKli0yC60z2+mC+hYZGkM0hOtRPPguvBACs6INGDXcMvttK2yofnv1kGHU6R06TtjUpmiTvIa3q8a11hFA6NzAddaX6nITYs2Ke8cXqpY051RL7SjNZTXwKhNq7f76KGDXxvVhimNpHOsJdexhf9i2I7A9QZ+5MrbQI6nkFcjVL+iGVq2lmBnUpm31kQ8k/UW2LAuy4QwaODJeQ95djFlRCaMtSvw7J1cmP8KxfFAgMBAAGjgfkwgfYwEgYDVR0TAQH/BAgwBgEB/wIBBzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFJe+RlAPQ6Yp9C3AXiczcych7b4JMIGzBgNVHSMEgaswgaiAFH/CxlRwagHJjzmiRbWD4jK0njrRoYGMpIGJMIGGMSUwIwYDVQQuExxmOExHVkhCcUFjbVBPYUpGdFlQaU1yU2VPdEU9MR0wGwYDVQQKExREQy5DQS5RdWJlQ2luZW1hLmNvbTEdMBsGA1UECxMUREMuQ0EuUXViZUNpbmVtYS5jb20xHzAdBgNVBAMTFi5EQy5DQS5RdWJlQ2luZW1hLmNvbS6CAQEwDQYJKoZIhvcNAQELBQADggEBADlb/7Cy4zx5QjUVnsOHt2KLwJtFzQeCM271cHmvK79LtpBeoKvdcmoe92c02fP7vbsCHXhW1cOmisHNvCaqaF5umhv5/CGozoD+qvwsfePDDJW6iyCId19NO5+cuiveGrMMT8N8fElOVc5mVO5FkmzRRNBJ2xmzNtAMwDTTjmG+dy2DclryVlwX6y0tCGtyz9QFQcx95pDXSnlCcvXhfWOEnP36RIPfAEJQrqIHfzBhuvUOtm9+mDzGexnl4dMxkZfW7UK+NnaXRZ3YDy+zObH0YZgrEIL+TdNGHEm4oGUPP6I78CY8gqpvk6QcokEjASu2VZPbCw2UmfRy4f8w2c8=",
+                            "MIIEgzCCA2ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjElMCMGA1UELhMcZjhMR1ZIQnFBY21QT2FKRnRZUGlNclNlT3RFPTEdMBsGA1UEChMUREMuQ0EuUXViZUNpbmVtYS5jb20xHTAbBgNVBAsTFERDLkNBLlF1YmVDaW5lbWEuY29tMR8wHQYDVQQDExYuREMuQ0EuUXViZUNpbmVtYS5jb20uMB4XDTExMDkwODE4MzAwMFoXDTM4MTIzMTE4Mjk1OVowgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANTu/GoGXKeBmnc81tSd+uPzgEnGMsFpUO+oU3oPhKvi5T286i/HUNIdqRJVx5AYnXUO6Zdi1E/Af+Hd5FNSsDrgrPrresMrnxZyZhU7cZZn48KbwcFiRr2gdA0ErgFQFjAK7nIqEn62UbI3X0k5Ag23MvS5rqNaP05CfEl++zXIYGv+15ri1OcAffr4WycL1U59Q1oIAvE2J6koREEYqrHUfkBDl36REEEBBGqmpNRQaicw0izeVIW5UPtr072lDag5fG2pb3GVBn9LdUt8UoMGL22ty5PZOzcWFx/p1/Zlq2xoUNrY6HpCLgFO/vIXEfPQac3ApZ/AjFs7HosAicMCAwEAAaOB+TCB9jASBgNVHRMBAf8ECDAGAQH/AgEIMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUf8LGVHBqAcmPOaJFtYPiMrSeOtEwgbMGA1UdIwSBqzCBqIAUf8LGVHBqAcmPOaJFtYPiMrSeOtGhgYykgYkwgYYxJTAjBgNVBC4THGY4TEdWSEJxQWNtUE9hSkZ0WVBpTXJTZU90RT0xHTAbBgNVBAoTFERDLkNBLlF1YmVDaW5lbWEuY29tMR0wGwYDVQQLExREQy5DQS5RdWJlQ2luZW1hLmNvbTEfMB0GA1UEAxMWLkRDLkNBLlF1YmVDaW5lbWEuY29tLoIBATANBgkqhkiG9w0BAQsFAAOCAQEAALN6lrMojsZGeb3T6mWMGBBGnMnW8+A4LzyFaWAUOPqAhXryu0u6Ca3PspEIS/s6ULA3z0mV1u95pH736ax1AWsXn1rEtxzf/YypVnt790MdkpBrHqqDxmmBlOQleHB579L7fpUUclcfZycFFhVAssKiQOMH3bt9sXNvAQvOacJok33QBo5FTuamS00gNX0/Aa0BW4fVBrC4zzu+gPBcREaCtZMtHArxagFiF4yzI4dMH1G2Mff13YoF/5FSkkOEVL6Ra8OtNHXjq6dq/ROFtLp6UtXPC0jISR63K2AD9Z7K7dtRNP+Ygva27CDtL6bDjxbIMhYVseQz8CHLesn3ug=="
+                        ]
+                    },
+                    "device_ip": null,
+                    "subnet_mask": null,
+                    "gateway": null,
+                    "software_version": null
+                }
+            ],
+            "identifiers": [
+                "1492f6fd-a6f9-4550-bec5-1d9c629b775f-number-1",
+                "1492f6fd-a6f9-4550-bec5-1d9c629b775f-name-screen-1",
+                "a8024fdd-6f75-455f-bd14-ac398925e33f",
+                "1492f6fd-a6f9-4550-bec5-1d9c629b775f-name-screen-1-test",
+                "cinemadb-io-45095-number-1",
+                "cinemadb-io-45095-name-screen-1"
+            ]
+        }],
+        "wiretaps": [{
+            "id": "6711208f-6567-40d0-9058-ceb105e5aa90",
+            "serial": "QWA-M50173",
+            "type": "microTAP",
+            "storageSizeInGb": 128
+        }],
+        "preferred_language": "eng"
+    }
+  ]
